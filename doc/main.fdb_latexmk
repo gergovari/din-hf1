@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1759688087.23192 "main.tex" "main.pdf" "main" 1759688087.72717 0
+["pdflatex"] 1759688531.06711 "main.tex" "main.pdf" "main" 1759688531.55439 0
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -192,18 +192,18 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1743325754 5320026 6cb54d85b8dca8781e057167ee7c1ffc ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1743245818 1917530 7ae6c532c891ae46c66a424f1e01b7b0 ""
   "2acceleration.tex" 1759684765.00208 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "2speed.tex" 1759688086.357 1563 85a2fa621bc83a5b788508132a4b9d07 ""
+  "2speed.tex" 1759688091.667 1563 85a2fa621bc83a5b788508132a4b9d07 ""
   "accelerationpole.tex" 1759684849.42955 0 d41d8cd98f00b204e9800998ecf8427e ""
   "data.tex" 1759688028.8703 348 3dda0626602f96a4ab5aa993a71ba47f ""
   "drawing.tex" 1759684742.95905 0 d41d8cd98f00b204e9800998ecf8427e ""
   "exercise.pdf" 1759668950.64837 133014 22ce1f8b5dabf05ea242a242424b428d ""
   "exercise.tex" 1759684101.01839 351 d1b18d89dadfd00cd0b356f96ca6207d ""
   "images/assembly.png" 1759684352.67216 152393 220ba1907dd8436d3c2d9645049b7edd ""
-  "main.aux" 1759688087.677 734 a6a9b68158498f27ddf5edcb2a4c5a73 "pdflatex"
+  "main.aux" 1759688531.50409 837 0cf09e3a4a6a4a1ee880ea3b0dfdceb5 "pdflatex"
   "main.tex" 1759684738.01912 1471 02d1046f7a3b07d6cd383d10c0465934 ""
-  "main.toc" 1759688087.677 324 56384d89309cbcbc4510e33cccce2437 "pdflatex"
+  "main.toc" 1759688531.50409 386 520f39b37162d7c787c970a952071513 "pdflatex"
   "radius.tex" 1759684863.89286 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "speedpole.tex" 1759684757.65885 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "speedpole.tex" 1759688529.48075 230 e545cceb74e498e62dc0a5c33a4c2acf ""
   "tangential.tex" 1759684857.37287 0 d41d8cd98f00b204e9800998ecf8427e ""
   "title.tex" 1759668383.17621 67 28027178d4657b2b16640282db2e9f5d ""
   (generated)
