@@ -1,0 +1,7 @@
+\includepdf[pages={1}, pagecommand={
+	\begin{picture}(0,0) 
+			\put(220, 90){Vári Gergő}
+			\put(85, -47.5){MQHJ0H}
+			\put(104, -72.5){Szabó Gyula}
+	\end{picture}
+}]{exercise.pdf}

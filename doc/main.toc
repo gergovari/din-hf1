@@ -1,0 +1,5 @@
+\babel@toc {magyar}{}\relax 
+\contentsline {section}{\numberline {1}2-es test szög -és súlypontjának sebessége}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Helyvektorok}{1}{}%
+\contentsline {subsection}{\numberline {1.2}Szögsebesség}{1}{}%
+\contentsline {subsection}{\numberline {1.3}Súlypont sebesség}{2}{}%
