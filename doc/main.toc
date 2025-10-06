@@ -8,3 +8,6 @@
 \contentsline {subsection}{\numberline {3.1}Helyvektorok}{4}{}%
 \contentsline {subsection}{\numberline {3.2}Szöggyorsulás}{4}{}%
 \contentsline {subsection}{\numberline {3.3}Súlypont gyorsulás}{4}{}%
+\contentsline {section}{\numberline {4}Gyorsulásszög és gyorsuláspólus}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Gyorsulásszög}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Gyorsuláspólus}{5}{}%
