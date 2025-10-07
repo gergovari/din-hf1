@@ -75,7 +75,6 @@
 	(C) -- ($(C) + (\vcx * \smul, 0)$)
 	node[midway, above] {$\pmb{v}_\text{C}$};
 
-
 	\coordinate (vBend) at ($(B) + (\vbx * \smul, \vby * \smul)$);
 	\draw[line width=\speedwidth, \speedcolor, -Stealth]
 	(B) -- (vBend)
@@ -96,6 +95,19 @@
 	(S2) -- (aS2end)
 	node[midway, left] {$\pmb{a}_{S_2}$};
 }
+
+\newcommand{\tancolor}{blue}
+\newcommand{\normcolor}{orange}
+\newcommand{\tangentials}{
+	\draw[line width=\speedwidth, \tancolor, -Stealth]
+	(S2) -- ($(S2) + (\astwotx * \amul * 100, \astwoty * \amul * 100)$)
+	node[above] {$\pmb{a}_{{S_2}_t}$};
+
+	\draw[line width=\speedwidth, \normcolor, -Stealth]
+	(S2) -- ($(S2) + (\astwonx * \amul, \astwony * \amul)$)
+	node[below] {$\pmb{a}_{{S_2}_n}$};
+}
+
 \newcommand{\accelangleecc}{.6}
 \newcommand{\accelanglerad}{20}
 \newcommand{\accelangles}{
@@ -160,5 +172,22 @@
 			\accelerationpolepoint
                 \end{tikzpicture}
                 \caption{Méretarányos szerkezet gyorsuláspólussal, gyorsulásokkal és azok gyorsulásszögével}
+        \end{figure}
+}
+
+\newcommand{\structuretangential}{
+        \begin{figure}[hbt!]
+                \centering
+                \begin{tikzpicture}
+                        \coords
+			
+			\wheels
+			\beams
+
+			\tangentials
+
+                        \points
+                \end{tikzpicture}
+                \caption{Méretarányos szerkezet a gyorsulás tangenciális (százszoros nagyítással a szemléltetés céljából) és normális komponensével}
         \end{figure}
 }

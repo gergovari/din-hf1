@@ -20,4 +20,6 @@
 \contentsline {subsubsection}{\numberline {6.1.2}Gyorsuláspólus}{6}{}%
 \contentsline {subsection}{\numberline {6.2}Ábra}{6}{}%
 \contentsline {section}{\numberline {7}Gyorsulásvektor tangenciálisa és normálisa}{7}{}%
+\contentsline {subsection}{\numberline {7.1}Számítás}{7}{}%
+\contentsline {subsection}{\numberline {7.2}Ábra}{7}{}%
 \contentsline {section}{\numberline {8}Pillanatnyi görbületi sugár}{7}{}%
