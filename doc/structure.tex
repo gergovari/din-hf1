@@ -20,6 +20,19 @@
 	\coordinate (aS2end) at ($(S2) + (\astwox * \amul, \astwoy * \amul)$);
 }
 
+\newcommand{\convention}{
+        \draw[-Stealth] 
+                (0, 0) -- +(10, 0)
+                node [below] {$x$};
+        \draw[-Stealth]
+                (0, 0) -- +(0, 2.5)
+                node [left] {$y$};
+
+        \draw[-Stealth]
+                (0, -1) arc (0:180:-.5)
+                node [midway, above] {$+$};
+}
+
 \newcommand{\points}{
         \fill[\coordcolor] (A) circle (\coordsize) node[left, color=black] {$A$};
         \fill[\coordcolor] (B) circle (\coordsize) node[above right, color=black] {$B$};
@@ -50,7 +63,8 @@
                 \centering
                 \begin{tikzpicture}
                         \coords
-			
+			\convention
+
 			\wheels
 			\beams
                         \points
@@ -126,6 +140,7 @@
                 \begin{tikzpicture}
                         \coords
 			
+			\convention
 			\wheels
 			\beams
 
@@ -144,6 +159,7 @@
                 \begin{tikzpicture}
                         \coords
 			
+			\convention
 			\wheels
 			\beams
 
@@ -161,6 +177,7 @@
                 \begin{tikzpicture}
                         \coords
 			
+			\convention
 			\wheels
 			\beams
 			
@@ -181,6 +198,7 @@
                 \begin{tikzpicture}
                         \coords
 			
+			\convention
 			\wheels
 			\beams
 
