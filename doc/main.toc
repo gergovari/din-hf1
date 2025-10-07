@@ -1,16 +1,17 @@
 \babel@toc {magyar}{}\relax 
-\contentsline {section}{\numberline {1}2-es test szög -és súlypontjának sebessége}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Helyvektorok}{1}{}%
-\contentsline {subsection}{\numberline {1.2}Szögsebesség}{1}{}%
-\contentsline {subsection}{\numberline {1.3}Súlypont sebesség}{2}{}%
-\contentsline {section}{\numberline {2}Sebességpólus}{3}{}%
-\contentsline {section}{\numberline {3}2-es test szög -és súlypontjának gyorsulása}{4}{}%
-\contentsline {subsection}{\numberline {3.1}Helyvektorok}{4}{}%
-\contentsline {subsection}{\numberline {3.2}Szöggyorsulás}{4}{}%
-\contentsline {subsection}{\numberline {3.3}Súlypont gyorsulás}{4}{}%
-\contentsline {section}{\numberline {4}Kért pontok gyorsulása}{5}{}%
-\contentsline {section}{\numberline {5}Gyorsulásszög és gyorsuláspólus}{6}{}%
-\contentsline {subsection}{\numberline {5.1}Gyorsulásszög}{6}{}%
-\contentsline {subsection}{\numberline {5.2}Gyorsuláspólus}{6}{}%
-\contentsline {section}{\numberline {6}Gyorsulásvektor tangenciálisa és normálisa}{7}{}%
-\contentsline {section}{\numberline {7}Pillanatnyi görbületi sugár}{8}{}%
+\contentsline {section}{\numberline {1}Szerkezeti ábra}{1}{}%
+\contentsline {section}{\numberline {2}2-es test szög -és súlypontjának sebessége}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Helyvektorok}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Szögsebesség}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Súlypont sebesség}{3}{}%
+\contentsline {section}{\numberline {3}Sebességpólus}{4}{}%
+\contentsline {section}{\numberline {4}2-es test szög -és súlypontjának gyorsulása}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Helyvektorok}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Szöggyorsulás}{5}{}%
+\contentsline {subsection}{\numberline {4.3}Súlypont gyorsulás}{5}{}%
+\contentsline {section}{\numberline {5}Kért pontok gyorsulása}{6}{}%
+\contentsline {section}{\numberline {6}Gyorsulásszög és gyorsuláspólus}{7}{}%
+\contentsline {subsection}{\numberline {6.1}Gyorsulásszög}{7}{}%
+\contentsline {subsection}{\numberline {6.2}Gyorsuláspólus}{7}{}%
+\contentsline {section}{\numberline {7}Gyorsulásvektor tangenciálisa és normálisa}{8}{}%
+\contentsline {section}{\numberline {8}Pillanatnyi görbületi sugár}{9}{}%
