@@ -15,6 +15,9 @@
 	\coordinate (S2) at ($ (B)!0.5!(C) $);
 
 	\coordinate (P2) at ($(C) + (0, \CPtwoy)$);
+
+	\coordinate (aBend) at ($(B) + (\abx * \amul, \aby * \amul)$);
+	\coordinate (aS2end) at ($(S2) + (\astwox * \amul, \astwoy * \amul)$);
 }
 
 \newcommand{\points}{
@@ -62,31 +65,42 @@
 \newcommand{\speedcolor}{purple}
 \newcommand{\speedwidth}{1pt}
 \newcommand{\smul}{3}
-\newcommand{\speeds}{
-	\draw[line width=\speedwidth, \speedcolor, -Stealth]
-	(C) -- ($(C) + (\vcx * \smul, 0)$)
-	node[midway, above] {$\pmb{v}_\text{C}$};
-
-	\draw[line width=\speedwidth, \speedcolor, -Stealth]
-	(B) -- ($(B) + (\vbx * \smul, \vby * \smul)$)
-	node[midway, above right] {$\pmb{v}_\text{B}$};
-
-	\draw[line width=\speedwidth, \speedcolor, -Stealth]
-	(S2) -- ($(S2) + (\vstwox * \smul, \vstwoy * \smul)$)
-	node[above] {$\pmb{v}_{S_2}$};
-}
 
 \newcommand{\accelcolor}{teal}
 \newcommand{\accelwidth}{1pt}
 \newcommand{\amul}{1}
-\newcommand{\accelerations}{
-	\draw[line width=\accelwidth, \accelcolor, -Stealth]
-	(B) -- ($(B) + (\abx * \amul, \aby * \amul)$)
-	node[midway, right] {$\pmb{a}_\text{B}$};
 
-	\draw[line width=\accelwidth, \accelcolor, -Stealth]
-	(S2) -- ($(S2) + (\astwox * \amul, \astwoy * \amul)$)
-	node[midway, left] {$\pmb{a}_{S_2}$};
+\newcommand{\speeds}{
+    \coordinate (vBend) at ($(B) + (\vbx * \smul, \vby * \smul)$);
+    \draw[line width=\speedwidth, \speedcolor, -Stealth]
+        (B) -- (vBend)
+        node[midway, above right] {$\pmb{v}_\text{B}$};
+
+    \coordinate (vS2end) at ($(S2) + (\vstwox * \smul, \vstwoy * \smul)$);
+    \draw[line width=\speedwidth, \speedcolor, -Stealth]
+        (S2) -- (vS2end)
+        node[above] {$\pmb{v}_{S_2}$};
+}
+
+\newcommand{\accelerations}{
+    \draw[line width=\accelwidth, \accelcolor, -Stealth]
+        (B) -- (aBend)
+        node[midway, right] {$\pmb{a}_\text{B}$};
+
+    \draw[line width=\accelwidth, \accelcolor, -Stealth]
+        (S2) -- (aS2end)
+        node[midway, left] {$\pmb{a}_{S_2}$};
+}
+\newcommand{\accelangleecc}{.6}
+\newcommand{\accelanglerad}{20}
+\newcommand{\accelangles}{
+	\path
+	    pic["$\alpha_2$", draw=black, angle eccentricity=\accelangleecc, angle radius=\accelanglerad]
+	    {angle = aBend--B--vBend};
+
+	\path
+	    pic["$\alpha_2$", draw=black, angle eccentricity=\accelangleecc, angle radius=\accelanglerad]
+	    {angle = aS2end--S2--vS2end};
 }
 
 \newcommand{\structurespeedpole}{
@@ -135,6 +149,7 @@
 			
 			\speeds
 			\accelerations
+			\accelangles
 
                         \points
 			\accelerationpolepoint
