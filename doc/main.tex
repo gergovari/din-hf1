@@ -1,3 +1,4 @@
+%! TeX program = lualatex
 \documentclass{article}
 
 \usepackage[provide=*, magyar]{babel}
@@ -22,6 +23,10 @@
 \usepackage[table]{xcolor}
 \usepackage{multicol}
 \usepackage{footnote}
+
+\usepackage{fontspec} 
+
+\usepackage{fancyhdr}
 
 \makesavenoteenv{tabular}
 
@@ -58,6 +63,16 @@
 \input{title}
 \input{structure}
 
+\newfontface\handwritten{Dynalight}
+
+\fancyhead[L]{\handwritten \myname}  
+\fancyhead[C]{\neptun}             
+\fancyhead[R]{\myname}              
+
+\newcommand{\myname}{Vári Gergő}   
+\newcommand{\neptun}{MQHJ0H}
+
+
 \begin{document}
 	\input{data}
 	\pagenumbering{gobble}
@@ -79,6 +94,7 @@
 	\newpage
 	\pagenumbering{arabic}
 
+	\pagestyle{fancy}
 	\newpage
 	\input{drawing}
 
