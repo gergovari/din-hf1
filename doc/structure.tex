@@ -71,25 +71,30 @@
 \newcommand{\amul}{1}
 
 \newcommand{\speeds}{
-    \coordinate (vBend) at ($(B) + (\vbx * \smul, \vby * \smul)$);
-    \draw[line width=\speedwidth, \speedcolor, -Stealth]
-        (B) -- (vBend)
-        node[midway, above right] {$\pmb{v}_\text{B}$};
+	\draw[line width=\speedwidth, \speedcolor, -Stealth]
+	(C) -- ($(C) + (\vcx * \smul, 0)$)
+	node[midway, above] {$\pmb{v}_\text{C}$};
 
-    \coordinate (vS2end) at ($(S2) + (\vstwox * \smul, \vstwoy * \smul)$);
-    \draw[line width=\speedwidth, \speedcolor, -Stealth]
-        (S2) -- (vS2end)
-        node[above] {$\pmb{v}_{S_2}$};
+
+	\coordinate (vBend) at ($(B) + (\vbx * \smul, \vby * \smul)$);
+	\draw[line width=\speedwidth, \speedcolor, -Stealth]
+	(B) -- (vBend)
+	node[midway, above right] {$\pmb{v}_\text{B}$};
+
+	\coordinate (vS2end) at ($(S2) + (\vstwox * \smul, \vstwoy * \smul)$);
+	\draw[line width=\speedwidth, \speedcolor, -Stealth]
+	(S2) -- (vS2end)
+	node[above] {$\pmb{v}_{S_2}$};
 }
 
 \newcommand{\accelerations}{
-    \draw[line width=\accelwidth, \accelcolor, -Stealth]
-        (B) -- (aBend)
-        node[midway, right] {$\pmb{a}_\text{B}$};
+	\draw[line width=\accelwidth, \accelcolor, -Stealth]
+	(B) -- (aBend)
+	node[midway, right] {$\pmb{a}_\text{B}$};
 
-    \draw[line width=\accelwidth, \accelcolor, -Stealth]
-        (S2) -- (aS2end)
-        node[midway, left] {$\pmb{a}_{S_2}$};
+	\draw[line width=\accelwidth, \accelcolor, -Stealth]
+	(S2) -- (aS2end)
+	node[midway, left] {$\pmb{a}_{S_2}$};
 }
 \newcommand{\accelangleecc}{.6}
 \newcommand{\accelanglerad}{20}
